@@ -18,11 +18,11 @@ Bu proyektdə, kiçik xəbər portalı hazırlamalıyıq. Portalımızda istifad
 
 3. **Axtarış:**
 
-   - İstifadəçilər xəbər başlıqlarına görə axtarış edə bilmlədirlər.
+   - İstifadəçilər xəbər başlıqlarına görə axtarış edə bilməlidirlər.
 
 4. **Oxuyucu Profili:**
 
-   - Oxuyucular istəsələr, profil şəkli əlavə edə bilərlər və ya defolt bir şəkil olmalıdır.
+   - Oxuyucular istəsələr, profil şəkli əlavə edə bilərlər və ya susmaya görə bir şəkil olmalıdır.
    - İstədikləri zaman məlumatlarını dəyişə bilməlidirlər
    - Öz kommentlərini görə bilməlidirlər
 
