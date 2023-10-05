@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Newsportal | Add Category</title>
+
+    <!-- App css -->
+    <link
+      href="./assets/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="./assets/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/components.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <!-- <link rel="stylesheet" href="../plugins/switchery/switchery.min.css"> -->
+    <script src="./assets/js/modernizr.min.js"></script>
+  </head>
+
+  <body class="fixed-left">
+    <!-- Begin page -->
+    <div id="wrapper">
+      <div class="topbar">
+        <!-- LOGO -->
+        <div class="topbar-left">
+          <a href="./dashboard.html" class="logo"
+            >Admin Nav<i class="mdi mdi-layers"></i
+          ></a>
+        </div>
+        <!-- Button mobile view to collapse sidebar menu -->
+        <div class="topbar">
+          <!-- LOGO -->
+          <div class="topbar-left text-wrap">
+            <a href="./dashboard.html" class="logo text-wrap"
+              >Admin Nav<i class="mdi mdi-layers"></i
+            ></a>
+          </div>
+          <!-- Button mobile view to collapse sidebar menu -->
+          <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+              <!-- Navbar-left -->
+              <ul class="nav navbar-nav navbar-left">
+                <li>
+                  <button class="button-menu-mobile open-left waves-effect">
+                    <i class="mdi mdi-menu"></i>
+                  </button>
+                </li>
+              </ul>
+              <!-- Right(Notification) -->
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown user-box">
+                  <a
+                    href=""
+                    class="dropdown-toggle waves-effect user-link"
+                    data-toggle="dropdown"
+                    aria-expanded="true"
+                  >
+                    <img
+                      src="./assets/images/users/avatar-1.jpg"
+                      alt="user-img"
+                      class="img-circle user-img"
+                    />
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list"
+                  >
+                    <li>
+                      <h5>Welcome back</h5>
+                    </li>
+                    <li>
+                      <a href="./change-password.html"
+                        ><i class="ti-settings m-r-5"></i> Change Password</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./logout.html"
+                        ><i class="ti-power-off m-r-5"></i> Logout</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- end navbar-right -->
+            </div>
+            <!-- end container -->
+          </div>
+          <!-- end navbar -->
+        </div>
+      </div>
+      <!-- ========== Left Sidebar Start ========== -->
+      <div class="left side-menu">
+        <div class="sidebar-inner slimscrollleft">
+          <!--- Sidemenu -->
+          <div id="sidebar-menu">
+            <ul>
+              <li class="menu-title">Navigation</li>
+              <li class="has_sub">
+                <a href="./dashboard.html" class="waves-effect"
+                  ><i class="mdi mdi-view-dashboard"></i>
+                  <span>Admin Dashboard </span>
+                </a>
+              </li>
+              <li class="has_sub">
+                <a href="javascript:void(0);" class="waves-effect"
+                  ><i class="mdi mdi-format-list-bulleted"></i>
+                  <span> Category </span> <span class="menu-arrow"></span
+                ></a>
+                <ul class="list-unstyled">
+                  <li><a href="./add-category.html">Add Category</a></li>
+                  <li>
+                    <a href="./manage-categories.html">Manage Category</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has_sub">
+                <a href="javascript:void(0);" class="waves-effect"
+                  ><i class="mdi mdi-format-list-bulleted"></i>
+                  <span>Sub Category </span> <span class="menu-arrow"></span
+                ></a>
+                <ul class="list-unstyled">
+                  <li><a href="./add-subcategory.html">Add Sub Category</a></li>
+                  <li>
+                    <a href="./manage-subcategories.html"
+                      >Manage Sub Category</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="has_sub">
+                <a href="javascript:void(0);" class="waves-effect"
+                  ><i class="mdi mdi-format-list-bulleted"></i>
+                  <span> Posts </span> <span class="menu-arrow"></span
+                ></a>
+                <ul class="list-unstyled">
+                  <li><a href="./add-post.html">Add Posts</a></li>
+                  <li><a href="./manage-posts.html">Manage Posts</a></li>
+                  <li><a href="./trash-posts.html">Trash Posts</a></li>
+                </ul>
+              </li>
+              <li class="has_sub">
+                <a href="javascript:void(0);" class="waves-effect"
+                  ><i class="mdi mdi-format-list-bulleted"></i>
+                  <span> Comments </span> <span class="menu-arrow"></span
+                ></a>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="./unapprove-comment.html">Waiting for Approval </a>
+                  </li>
+                  <li>
+                    <a href="./manage-comments.html">Approved Comments</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- Sidebar -->
+          <div class="clearfix"></div>
+        </div>
+        <!-- Sidebar -left -->
+      </div>
+      <!-- Left Sidebar End -->
+      <div class="content-page">
+        <!-- Start content -->
+        <div class="content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="page-title-box">
+                  <h4 class="page-title">Edit Category</h4>
+                  <ol class="breadcrumb p-0 m-0">
+                    <li>
+                      <a href="#">Admin</a>
+                    </li>
+                    <li>
+                      <a href="#">Category </a>
+                    </li>
+                    <li class="active">Edit Category</li>
+                  </ol>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card-box">
+                  <h4 class="m-t-0 header-title"><b>Edit Category </b></h4>
+                  <hr />
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <!---Success Message--->
+
+                      <div class="alert alert-success" role="alert">
+                        <strong>Finished edit!</strong>
+                      </div>
+
+                      <!---Error Message--->
+                      <div class="alert alert-danger" role="alert">
+                        <strong>Oh snap!</strong>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <form class="form-horizontal" name="category">
+                        <div class="form-group">
+                          <label class="col-md-2 control-label">Category</label>
+                          <div class="col-md-10">
+                            <input
+                              type="text"
+                              class="form-control"
+                              value="Catego"
+                              name="category"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="col-md-2 control-label"
+                            >Category Description</label
+                          >
+                          <div class="col-md-10">
+                            <textarea
+                              class="form-control"
+                              rows="5"
+                              name="description"
+                              required
+                            >
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rerum magnam quibusdam iusto accusantium eveniet, consequuntur quo ullam laboriosam nostrum!</textarea
+                            >
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="col-md-2 control-label">&nbsp;</label>
+                          <div class="col-md-10">
+                            <a
+                              href="./edit-category.html"
+                              class="btn btn-custom waves-effect waves-light btn-md"
+                            >
+                              Update
+                            </a>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- container -->
+        </div>
+        <!-- content -->
+        <footer class="footer text-right">
+          NewsPortal app &copy; All rights reserved
+        </footer>
+      </div>
+    </div>
+    <!-- END wrapper -->
+
+    <script>
+      var resizefunc = [];
+    </script>
+
+    <!-- jQuery  -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/detect.js"></script>
+    <script src="./assets/js/fastclick.js"></script>
+    <script src="./assets/js/jquery.blockUI.js"></script>
+    <script src="./assets/js/waves.js"></script>
+    <script src="./assets/js/jquery.slimscroll.js"></script>
+    <script src="./assets/js/jquery.scrollTo.min.js"></script>
+    <!-- <script src="../plugins/switchery/switchery.min.js"></script> -->
+
+    <!-- App js -->
+    <script src="./assets/js/jquery.core.js"></script>
+    <script src="./assets/js/jquery.app.js"></script>
+  </body>
+</html>
